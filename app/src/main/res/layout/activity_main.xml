@@ -6,12 +6,21 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/view_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="TextUtils"
         android:textSize="60sp"
         android:textStyle="bold|italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Develop By ByteNext"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
 
 
 </RelativeLayout>
